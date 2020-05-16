@@ -4,6 +4,7 @@ public class UneClasseMetier {
 
 	private AfficheMetier a;
 	
+	//Construteur
 	public UneClasseMetier(final AfficheMetier pA) {
 		this.a = pA;
 	}
@@ -11,7 +12,7 @@ public class UneClasseMetier {
 	public void afficheInfo()
 	{
 		a.afficheDebut();
-		
+		//Traitement
 		a.afficheFin();
 	}
 	
